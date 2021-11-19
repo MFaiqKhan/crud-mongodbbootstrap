@@ -90,7 +90,7 @@ form.addEventListener('submit', (e) => {
     let userEmail = document.getElementById('user_email').value
     let userAddress = document.getElementById('user_address').value
 
-    axios.post('https://crud-express-mongodb-basic.herokuapp.com/', {
+    axios.post('https://crud-express-mongodb-basic.herokuapp.com/user', {
         name: userName,
         email: userEmail,
         address: userAddress,
